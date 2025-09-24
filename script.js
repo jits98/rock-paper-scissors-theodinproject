@@ -5,7 +5,7 @@ function getComputerChoice() {
     return "rock";
   } else if (randomNumber < 68) {
     return "paper";
-  } else if (randomNumber < 100) {
+  } else if (randomNumber <= 100) {
     return "scissors";
   }
 }
